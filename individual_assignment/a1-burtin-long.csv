@@ -1,0 +1,50 @@
+Id,Bacteria ,Antibiotic,MIC,Gram Staining 
+1,Aerobacter aerogenes,Penicilin,870,negative
+2,Brucella abortus,Penicilin,1,negative
+3,Brucella anthracis,Penicilin,0.001,positive
+4,Diplococcus pneumoniae,Penicilin,0.005,positive
+5,Escherichia coli,Penicilin,100,negative
+6,Klebsiella pneumoniae,Penicilin,850,negative
+7,Mycobacterium tuberculosis,Penicilin,800,negative
+8,Proteus vulgaris,Penicilin,3,negative
+9,Pseudomonas aeruginosa ,Penicilin,850,negative
+10,Salmonella (Eberthella) typhosa ,Penicilin,1,negative
+11,Salmonella schottmuelleri ,Penicilin,10,negative
+12,Staphylococcus albus ,Penicilin,0.007,positive
+13,Staphylococcus aureus ,Penicilin,0.03,positive
+14,Streptococcus fecalis ,Penicilin,1,positive
+15,Streptococcus hemolyticus ,Penicilin,0.001,positive
+16,Streptococcus viridans,Penicilin,0.005,positive
+17,Aerobacter aerogenes,Streptomycin ,1,negative
+18,Brucella abortus,Streptomycin ,2,negative
+19,Brucella anthracis,Streptomycin ,0.01,positive
+20,Diplococcus pneumoniae,Streptomycin ,11,positive
+21,Escherichia coli,Streptomycin ,0.4,negative
+22,Klebsiella pneumoniae,Streptomycin ,1.2,negative
+23,Mycobacterium tuberculosis,Streptomycin ,5,negative
+24,Proteus vulgaris,Streptomycin ,0.1,negative
+25,Pseudomonas aeruginosa ,Streptomycin ,2,negative
+26,Salmonella (Eberthella) typhosa ,Streptomycin ,0.4,negative
+27,Salmonella schottmuelleri ,Streptomycin ,0.8,negative
+28,Staphylococcus albus ,Streptomycin ,0.1,positive
+29,Staphylococcus aureus ,Streptomycin ,0.03,positive
+30,Streptococcus fecalis ,Streptomycin ,1,positive
+31,Streptococcus hemolyticus ,Streptomycin ,14,positive
+32,Streptococcus viridans,Streptomycin ,10,positive
+33,Aerobacter aerogenes,Neomycin,1.6,negative
+34,Brucella abortus,Neomycin,0.02,negative
+35,Brucella anthracis,Neomycin,0.007,positive
+36,Diplococcus pneumoniae,Neomycin,10,positive
+37,Escherichia coli,Neomycin,0.1,negative
+38,Klebsiella pneumoniae,Neomycin,1,negative
+39,Mycobacterium tuberculosis,Neomycin,2,negative
+40,Proteus vulgaris,Neomycin,0.1,negative
+41,Pseudomonas aeruginosa ,Neomycin,0.4,negative
+42,Salmonella (Eberthella) typhosa ,Neomycin,0.008,negative
+43,Salmonella schottmuelleri ,Neomycin,0.09,negative
+44,Staphylococcus albus ,Neomycin,0.001,positive
+45,Staphylococcus aureus ,Neomycin,0.001,positive
+46,Streptococcus fecalis ,Neomycin,0.1,positive
+47,Streptococcus hemolyticus ,Neomycin,10,positive
+48,Streptococcus viridans,Neomycin,40,positive
+49,               ,,0,
