@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<!--
+	Transitive by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Transitive by TEMPLATED</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="resource/templated-transitive/assets/css/main.css" />
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@3.4.0"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@4"></script>
+	</head>
+	<body>
+
+		<!-- Three -->
+			<section id="three" class="wrapper style2">
+				<div class="inner">
+					<div class="grid-style">
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+									
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<h2>Lorem ipsum dolor</h2>
+										<p>maecenas feugiat ex purus, quis volutpat lacus placerat</p>
+									</header>
+									<hr />
+									<div id="c1"></div>
+									<p> Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada. Praesent in sem ex. Morbi mattis sapien pretium tellus venenatis, at egestas urna ornare.</p>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+									
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<h2>Vestibulum sit amet</h2>
+										<p>mattis sapien pretium tellus venenatis</p>
+									</header>
+									<hr />
+									<div id="c2"></div>
+									<p> Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada. Praesent in sem ex. Morbi mattis sapien pretium tellus venenatis, at egestas urna ornare.</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+		<!-- Scripts -->
+			<script src="resource/templated-transitive/assets/js/jquery.min.js"></script>
+			<script src="resource/templated-transitive/assets/js/jquery.scrolly.min.js"></script>
+			<script src="resource/templated-transitive/assets/js/jquery.scrollex.min.js"></script>
+			<script src="resource/templated-transitive/assets/js/skel.min.js"></script>
+			<script src="resource/templated-transitive/assets/js/util.js"></script>
+			<script src="resource/templated-transitive/assets/js/main.js"></script>
+	<script type="text/javascript">
+		let jsonSpec="chart1.json";
+		let jsonSpec2="chart2.json";
+		vegaEmbed('#c3', jsonSpec,{theme:'latimes'}).then(function(result) {}).catch(console.error);
+		vegaEmbed('#c4', jsonSpec2,{theme:'latimes'}).then(function(result) {}).catch(console.error);
+	</script>
+	</body>
+</html>

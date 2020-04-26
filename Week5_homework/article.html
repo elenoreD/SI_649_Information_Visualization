@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@3.4.0"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@4"></script>
+    </head>
+
+    <body>
+        <h1>
+            Trump got more and more support rate, but Biden still in the leading postion.
+        </h1>
+        <p>
+            According to to average support rate, in the past 2 years, Trump actually doesn't have the highest support rate, Biden, instead, has the highest support rate in 2018, 2019 and even this year. However, Trump's support rate is increasing with time, and keeping narrowing the gap with Biden. Although it's only been 2 months in 2020, and it's hard to say how the supporting data will change in the next 9 months until election, if Biden's support rate keep overweighing Trump's, he will be more competitive than many people thought.
+        </p>
+
+        <div id='vis1'></div>
+        <script type='text/javascript'>
+        let jsonSpec = 'resource/chart1.json';
+        vegaEmbed("#vis1", jsonSpec, {}).then(function(result){}).catch(console.error);
+        </script>
+
+        <h2>
+            Trump is gaining more support from California, yet losing support from Missouri and North Dakota.
+        </h2>
+        <p>
+            Most states's support rate for Trump didn't flutuate much except 3 states that are worth mentioning: California, Missouri, and North Dakota.
+            <p>
+            California was not a huge fun of Trump in 2019, but the average support rate grew from 33% last year to 45% this year. In 2019, from immigration to taxes to health care, President Donald Trump is harnessing federal power to constrain and even punish the blue states outside of his political coalition (source: https://www.theatlantic.com/politics/archive/2019/09/trump-epa-california-car-emissions/598381/) Maybe that's the reason that California started to support Trump.
+        </p>
+        <p>
+            A since-deleted tweet from President Trump erroneously congratulating the state of Kansas for the Kansas City Chiefs Super Bowl victory led to a number of tweets mocking the president over the mistake. The victory is actually Missouri's. Could it because of this mistake that Missouries feel less respected and vote against Trump in the poll?
+        </p>
+        <p>
+            North Dakota, another state that started to show less support to Trump, has more reasonable reasons: a) Trump's policy hurts the farmers' benefits in North Dakota, and b) the unfriendly immigrants policy. 
+        </p>
+        <div id='vis2'></div>
+        <script type='text/javascript'>
+        let jsonSpec2 = 'resource/chart2.json';
+        vegaEmbed('#vis2', jsonSpec2,{}).then(function(result) {}).catch(console.error);
+        </script>
+
+        <h3>
+            Trump's supporters are mainly in the middle parts, and the coast states on west and east are on the contrary.
+        </h2>
+        <p>
+            The map shows clearly that Trump's biggest supporter by far is West Virginia, following by North Dakota, Alabama, Kentucky, Tennessee, South Carolina, Montana, Missouri and Kansas, where the support rates are above 50%. On the contrary, if we look at the data at New York, Washington, California, Massachusetts and Connecticut, the support rates are just above 30%. 
+        </p>
+        <div id='vis3'></div>
+        <script type='text/javascript'>
+        let jsonSpec3 = 'resource/chart3.json';
+        vegaEmbed('#vis3', jsonSpec3,{}).then(function(result) {}).catch(console.error);
+        </script>
+
+
+
+
+
+    </body>
+
+    
+</html>
+
